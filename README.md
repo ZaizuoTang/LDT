@@ -1,6 +1,8 @@
-# LDT: Layer-Decomposition Training Makes Networks More Generalizable (ICLR2026)
+## LDT: Layer-Decomposition Training Makes Networks More Generalizable (ICLR2026)
 
-This repository is an official PyTorch implementation of the paper [LDT: Layer-Decomposition Training Makes Networks More Generalizable](https://openreview.net/pdf?id=jLpjcY1iry).
+### [[Paper](https://openreview.net/pdf?id=jLpjcY1iry)] 
+
+
 
 Zaizuo Tang<sup>1</sup>, Zongqi Yang<sup>1</sup>, Yubin Yang<sup>1</sup>, 
 
@@ -11,3 +13,49 @@ Domain generalization methods can effectively enhance network performance on tes
 
 
 
+<p align="center">
+    <img src="assets/pipeline.png" style="border-radius: 15px">
+</p>
+
+⭐If this work is helpful for you, please help star this repo. Thanks!🤗
+
+
+
+
+### Train on SR
+
+1. Download the DRealSR dataset.
+
+    [[DRealSR Dataset](https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution)]
+
+
+2. Download the pre-trained weights.
+
+    [[MambaIR V1 classicSRx4.pth](https://drive.google.com/file/d/1YXggWIsi-auCjmPQDvW9FjB1f9fZK0hN/view?usp=sharing)]
+
+
+3. Start training:
+
+    python Train_pip.py
+
+
+### Test on SR
+
+    python basicsr/test.py -opt test_MambaIR_SR_x4.yml
+
+
+
+
+
+
+## License
+
+This project is released under the [Apache 2.0 license](LICENSE).
+
+## Acknowledgement
+
+This code is based on [BasicSR](https://github.com/XPixelGroup/BasicSR) and [MambaIR](https://github.com/csguoh/MambaIR). Thanks for their awesome work.
+
+## Contact
+
+If you have any questions, feel free to approach me at tangzz@smail.nju.edu.cn
