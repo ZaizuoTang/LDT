@@ -28,8 +28,6 @@ Domain generalization methods can effectively enhance network performance on tes
 2. Download the pre-trained weights.
 
     [[MambaIR V1 classicSRx4.pth](https://drive.google.com/file/d/1YXggWIsi-auCjmPQDvW9FjB1f9fZK0hN/view?usp=sharing)]
-   
-    Due to the consistent output channel characteristic inherent to SR networks, and in order to conserve computational resources, we directly adopt the weights of the Mambair network for training in the second stage.
 
 
 4. Start training:
