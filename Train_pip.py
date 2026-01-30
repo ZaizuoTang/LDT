@@ -289,6 +289,7 @@ if __name__ == "__main__":
     Test_LR_root = "/home/Dataset/SODA_DRealSR/Test/LR/P"
     Test_HR_root = "/home/Dataset/SODA_DRealSR/Test/HR/P"
 
+    # Due to the consistent output channel characteristic inherent to SR networks, and in order to conserve computational resources, we directly adopt the weights of the Mambair network for training in the second stage.
     Weight_path = "/home/tangzz/Code/DG/Share_weight/classicSRx4.pth"
     Layer_name_root = ""
 
