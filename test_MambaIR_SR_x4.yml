@@ -68,7 +68,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: /home/tangzz/Code/MambaIR-main/experiments/MambaIR_SR_x4_P/models/net_g_24000.pth
+  pretrain_network_g: Path_weight
   strict_load_g: true
 
 # validation settings
