@@ -39,8 +39,8 @@ Domain generalization methods can effectively enhance network performance on tes
 
     python basicsr/test.py -opt test_MambaIR_SR_x4.yml
 
-
-
+    
+#### Download [[weight](https://drive.google.com/drive/folders/1SabUF2eqTzHgoY8qVKgH9fPT38eAPChY?usp=drive_link)]
 
 
 
